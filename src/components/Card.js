@@ -1,3 +1,5 @@
+import React from "react";
+
 function Card(props) {
   const { body } = props;
   return (

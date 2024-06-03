@@ -1,9 +1,19 @@
 //import "./styles.css";
-import "bootstrap/dist/css/bootstrap.css";
-import Card from "./components/Card";
+import React from "react";
+//import "bootstrap/dist/css/bootstrap.css";
+//import Card from "./components/Card";
+//import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import { BrowserRouter, Link, Routes } from "react-router-dom";
 
 function App() {
-  return <Card />;
+  return (
+    <BrowserRouter>
+      <header>
+        <Navbar />
+      </header>
+    </BrowserRouter>
+  );
 }
 
 export default App;
