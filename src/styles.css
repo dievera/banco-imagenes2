@@ -1,4 +1,21 @@
+
 .App {
   font-family: sans-serif;
-  text-align: center;
+  background-color: black;
 }
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: white;
+}
+
+.fondo{
+  background-color: grey;
+}
+
+.img-user{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
